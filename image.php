@@ -14,7 +14,7 @@ if ( $deployment == 'blue') {
 }
 
 // Draw a filled rectangle
-imagefilledrectangle($im, 0, 0, 199, 199, $color);
+imagefilledrectangle($im, 0, 0, 199, 199, 255);
 
 // Save the image
 header('Content-Type: image/png');
